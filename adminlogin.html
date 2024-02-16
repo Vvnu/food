@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:url('https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?w=1380&t=st=1695098883~exp=1695099483~hmac=e9e06e5cbad52cf15dd0587f93db7a4ae1aa5d2216ae20c121a9be543ebaeb63');
+            background-size:100% 100%;
+            margin: auto;
+            padding: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+        background-image:url('https://images.unsplash.com/photo-1505771215590-c5fa0aec29b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60');
+           background-size: 45% 45%;
+            border-radius: 30px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 65px;
+            width: 350px;
+        }
+
+        .container h2 {
+            text-align:center;
+            color:white;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            color:white;
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid burlywood;
+            border-radius: 35px;
+        }
+
+         
+        .button1{
+            align-content:flex-end;
+            text-decoration: solid;
+            justify-content: right;
+            background-color: black;
+            font-size:18px;
+            margin-left: 150px;
+            padding: 10px;
+            color: white;
+            width: 100px;
+            position: centre;
+            border-radius: 45px;
+            border-width: medium thick 2px;
+            border-style: solid;
+        } 
+        .button1:hover
+        { background-color: antiquewhite;
+            color: black;
+
+        }
+           
+        .container a{
+            align-content:flex-end;
+            text-decoration: solid;
+            justify-content: right;
+            font-size:16px;
+            margin-left: 160px;
+            color:aliceblue;
+
+         
+           
+           
+            font-size: medium;
+           
+           
+            
+        }
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2> admin Login</h2>
+        <form action="adminloginconnection.php" method="post">
+            <form class="container" name="loginform" >    
+                <div class="form-group">
+                  <label for="inputEmail4" class="form-">Email</label>
+                  <input type="email" class="form-control" id="Email" name="emailid" placeholder="abc@gmail.com">
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="pass" name="password" placeholder="******">
+                </div>
+                <div class="form-group">
+
+
+
+                    <div class="form-group">
+                        <label for="restaurant">Restaurant</label>
+                        <input type="text" name="restaurant" placeholder="Restaurant name" required>
+                    </div>
+                  
+                  <button class="button1" ><b>login</b></button><br><br>
+               
+                </div>
+            </form>
+        
+            <a href="2nd.html" ><u>new user !</u></a>
+            <a href="forget1.html" > <u> forget password </u></a>
+        </form>
+ </div>
+</body>
+</html>
